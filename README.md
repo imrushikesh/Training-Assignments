@@ -1,4 +1,4 @@
 ## Name : Rushikesh Patil
 
-# Training-Assignments-Bechmark
+# Training-Assignments-Benchmark
 Assignments of C# and .NET.
