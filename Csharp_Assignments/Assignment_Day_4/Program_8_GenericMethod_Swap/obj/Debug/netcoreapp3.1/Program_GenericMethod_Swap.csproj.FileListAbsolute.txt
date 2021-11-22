@@ -1,0 +1,13 @@
+D:\C#_Programs\FourthDay_Assignment\Program_GenericMethod_Swap\bin\Debug\netcoreapp3.1\Program_GenericMethod_Swap.exe
+D:\C#_Programs\FourthDay_Assignment\Program_GenericMethod_Swap\bin\Debug\netcoreapp3.1\Program_GenericMethod_Swap.deps.json
+D:\C#_Programs\FourthDay_Assignment\Program_GenericMethod_Swap\bin\Debug\netcoreapp3.1\Program_GenericMethod_Swap.runtimeconfig.json
+D:\C#_Programs\FourthDay_Assignment\Program_GenericMethod_Swap\bin\Debug\netcoreapp3.1\Program_GenericMethod_Swap.runtimeconfig.dev.json
+D:\C#_Programs\FourthDay_Assignment\Program_GenericMethod_Swap\bin\Debug\netcoreapp3.1\Program_GenericMethod_Swap.dll
+D:\C#_Programs\FourthDay_Assignment\Program_GenericMethod_Swap\bin\Debug\netcoreapp3.1\Program_GenericMethod_Swap.pdb
+D:\C#_Programs\FourthDay_Assignment\Program_GenericMethod_Swap\obj\Debug\netcoreapp3.1\Program_GenericMethod_Swap.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_Programs\FourthDay_Assignment\Program_GenericMethod_Swap\obj\Debug\netcoreapp3.1\Program_GenericMethod_Swap.AssemblyInfoInputs.cache
+D:\C#_Programs\FourthDay_Assignment\Program_GenericMethod_Swap\obj\Debug\netcoreapp3.1\Program_GenericMethod_Swap.AssemblyInfo.cs
+D:\C#_Programs\FourthDay_Assignment\Program_GenericMethod_Swap\obj\Debug\netcoreapp3.1\Program_GenericMethod_Swap.csproj.CoreCompileInputs.cache
+D:\C#_Programs\FourthDay_Assignment\Program_GenericMethod_Swap\obj\Debug\netcoreapp3.1\Program_GenericMethod_Swap.dll
+D:\C#_Programs\FourthDay_Assignment\Program_GenericMethod_Swap\obj\Debug\netcoreapp3.1\Program_GenericMethod_Swap.pdb
+D:\C#_Programs\FourthDay_Assignment\Program_GenericMethod_Swap\obj\Debug\netcoreapp3.1\Program_GenericMethod_Swap.genruntimeconfig.cache
