@@ -9,8 +9,11 @@
  
  <h4 align="center">Training-Assignments-Benchmark</h4>
  <h4 align="center"> Assignments on C# and .NET.</h4>
+ <h4 align="center">
+ 
+ ![GitHub last commit](https://img.shields.io/github/last-commit/imrushikesh/Training-Assignments?color=green&label=Recent%20commit&style=for-the-badge)
 
-
+ </h4>
 
 <details>
 <summary> C # Assignments on 👇 </summary>
