@@ -7,7 +7,7 @@
  
  ***
  
- <h4 align="center">Training-Assignments-Benchmark</h4>
+ <h2 align="center"> <i>Benchmark-Training-Assignments </i></h2>
  <h4 align="center"> Assignments on C# and .NET.</h4>
  <h4 align="center">
  
