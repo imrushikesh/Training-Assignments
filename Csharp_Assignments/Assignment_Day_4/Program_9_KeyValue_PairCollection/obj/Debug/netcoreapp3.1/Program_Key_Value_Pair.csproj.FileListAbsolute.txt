@@ -1,0 +1,13 @@
+D:\C#_Programs\FourthDay_Assignment\Program_Key_Value_Pair\bin\Debug\netcoreapp3.1\Program_Key_Value_Pair.exe
+D:\C#_Programs\FourthDay_Assignment\Program_Key_Value_Pair\bin\Debug\netcoreapp3.1\Program_Key_Value_Pair.deps.json
+D:\C#_Programs\FourthDay_Assignment\Program_Key_Value_Pair\bin\Debug\netcoreapp3.1\Program_Key_Value_Pair.runtimeconfig.json
+D:\C#_Programs\FourthDay_Assignment\Program_Key_Value_Pair\bin\Debug\netcoreapp3.1\Program_Key_Value_Pair.runtimeconfig.dev.json
+D:\C#_Programs\FourthDay_Assignment\Program_Key_Value_Pair\bin\Debug\netcoreapp3.1\Program_Key_Value_Pair.dll
+D:\C#_Programs\FourthDay_Assignment\Program_Key_Value_Pair\bin\Debug\netcoreapp3.1\Program_Key_Value_Pair.pdb
+D:\C#_Programs\FourthDay_Assignment\Program_Key_Value_Pair\obj\Debug\netcoreapp3.1\Program_Key_Value_Pair.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_Programs\FourthDay_Assignment\Program_Key_Value_Pair\obj\Debug\netcoreapp3.1\Program_Key_Value_Pair.AssemblyInfoInputs.cache
+D:\C#_Programs\FourthDay_Assignment\Program_Key_Value_Pair\obj\Debug\netcoreapp3.1\Program_Key_Value_Pair.AssemblyInfo.cs
+D:\C#_Programs\FourthDay_Assignment\Program_Key_Value_Pair\obj\Debug\netcoreapp3.1\Program_Key_Value_Pair.csproj.CoreCompileInputs.cache
+D:\C#_Programs\FourthDay_Assignment\Program_Key_Value_Pair\obj\Debug\netcoreapp3.1\Program_Key_Value_Pair.dll
+D:\C#_Programs\FourthDay_Assignment\Program_Key_Value_Pair\obj\Debug\netcoreapp3.1\Program_Key_Value_Pair.pdb
+D:\C#_Programs\FourthDay_Assignment\Program_Key_Value_Pair\obj\Debug\netcoreapp3.1\Program_Key_Value_Pair.genruntimeconfig.cache
