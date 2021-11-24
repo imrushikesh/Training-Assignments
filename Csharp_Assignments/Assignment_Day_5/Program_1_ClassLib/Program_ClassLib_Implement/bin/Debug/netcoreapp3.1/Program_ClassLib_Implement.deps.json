@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Program_ClassLib_Implement/1.0.0": {
+        "dependencies": {
+          "ClassLibrary1": "1.0.0.0"
+        },
+        "runtime": {
+          "Program_ClassLib_Implement.dll": {}
+        }
+      },
+      "ClassLibrary1/1.0.0.0": {
+        "runtime": {
+          "ClassLibrary1.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Program_ClassLib_Implement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibrary1/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
