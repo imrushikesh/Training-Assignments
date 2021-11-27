@@ -3,6 +3,13 @@ using System.Data;
 using System.Data.SqlClient;
 
 
+/*
+*
+*   
+* 
+*
+*/
+
 namespace Connected_SQL
 {
     class SqlDAL
@@ -102,8 +109,9 @@ namespace Connected_SQL
                 con.Open();
 
                 SqlCommand cmd = new SqlCommand("DeleteDepartment", con);
+                //CTA = P("1234");
                 cmd.CommandType = CommandType.StoredProcedure;
-
+                
                 cmd.Parameters.AddWithValue("DeptNo", deptno);
                 no = cmd.ExecuteNonQuery();
                 con.Close();
@@ -213,6 +221,7 @@ namespace Connected_SQL
             {
                 SqlConnection con = new SqlConnection();
                 con.ConnectionString = "Server=.;Database=DepartmentDB;trusted_connection=true";
+                // CTA;
                 con.Open();
 
                 SqlCommand cmd = new SqlCommand("DeleteEmployee", con);
