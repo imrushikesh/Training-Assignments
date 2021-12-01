@@ -1,0 +1,13 @@
+D:\C#_Programs\Assignment_Day_5\Program_Serialization\Binary_seralization\Binary_seralization\bin\Debug\netcoreapp3.1\Binary_seralization.exe
+D:\C#_Programs\Assignment_Day_5\Program_Serialization\Binary_seralization\Binary_seralization\bin\Debug\netcoreapp3.1\Binary_seralization.deps.json
+D:\C#_Programs\Assignment_Day_5\Program_Serialization\Binary_seralization\Binary_seralization\bin\Debug\netcoreapp3.1\Binary_seralization.runtimeconfig.json
+D:\C#_Programs\Assignment_Day_5\Program_Serialization\Binary_seralization\Binary_seralization\bin\Debug\netcoreapp3.1\Binary_seralization.runtimeconfig.dev.json
+D:\C#_Programs\Assignment_Day_5\Program_Serialization\Binary_seralization\Binary_seralization\bin\Debug\netcoreapp3.1\Binary_seralization.dll
+D:\C#_Programs\Assignment_Day_5\Program_Serialization\Binary_seralization\Binary_seralization\bin\Debug\netcoreapp3.1\Binary_seralization.pdb
+D:\C#_Programs\Assignment_Day_5\Program_Serialization\Binary_seralization\Binary_seralization\obj\Debug\netcoreapp3.1\Binary_seralization.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_Programs\Assignment_Day_5\Program_Serialization\Binary_seralization\Binary_seralization\obj\Debug\netcoreapp3.1\Binary_seralization.AssemblyInfoInputs.cache
+D:\C#_Programs\Assignment_Day_5\Program_Serialization\Binary_seralization\Binary_seralization\obj\Debug\netcoreapp3.1\Binary_seralization.AssemblyInfo.cs
+D:\C#_Programs\Assignment_Day_5\Program_Serialization\Binary_seralization\Binary_seralization\obj\Debug\netcoreapp3.1\Binary_seralization.csproj.CoreCompileInputs.cache
+D:\C#_Programs\Assignment_Day_5\Program_Serialization\Binary_seralization\Binary_seralization\obj\Debug\netcoreapp3.1\Binary_seralization.dll
+D:\C#_Programs\Assignment_Day_5\Program_Serialization\Binary_seralization\Binary_seralization\obj\Debug\netcoreapp3.1\Binary_seralization.pdb
+D:\C#_Programs\Assignment_Day_5\Program_Serialization\Binary_seralization\Binary_seralization\obj\Debug\netcoreapp3.1\Binary_seralization.genruntimeconfig.cache
