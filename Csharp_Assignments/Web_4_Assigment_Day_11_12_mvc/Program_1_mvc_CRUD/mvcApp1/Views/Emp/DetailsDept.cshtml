@@ -1,0 +1,49 @@
+﻿@model mvcApp1.Models.EmpModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DetailsDept</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <table>
+                <tr>
+                    <td>@Html.DisplayNameFor(model => model.empno)</td>
+                    <td>@Html.DisplayFor(model => model.empno, new { id = "txtempno" })</td>
+                </tr>
+
+
+                <tr>
+                    <td>@Html.DisplayNameFor(model => model.empname)</td>
+                    <td>@Html.DisplayFor(model => model.empname, new { id = "txtempname" })</td>
+                </tr>
+
+                <tr>
+                    <td>@Html.DisplayNameFor(model => model.designation)</td>
+                    <td>@Html.DisplayFor(model => model.designation, new { id = "txtdesignation" })</td>
+                </tr>
+
+                <tr>
+                    <td>@Html.DisplayNameFor(model => model.deptname)</td>
+                    <td>@Html.DisplayFor(model => model.deptname, new { id = "txtdeptname" })</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"> @Html.ActionLink("Back To List", "Index")</td>
+
+                </tr>
+            </table>
+
+
+        }
+    </div>
+</body>
+</html>
