@@ -1,0 +1,110 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CreateDept</title>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+    $(function () {
+//# - if control need to be found based on id
+        //. - if control need to be found based on id
+        // this -> refers to current control referencves
+        $("#btnadddept").click(function () {
+            var empno = $("#txtempno").val();
+            var empname = $("#txtempname").val();
+            var designation = $("#txtdesignation").val();
+            var deptname = $("#txtdeptname").val();
+            var urlaction = '@Url.Action("InsertDeptAjax", "Dept")'
+            var validate = true;
+            if (empno == '') {
+                validate = false;
+                alert('please enter deptno');
+                return false;
+            }
+
+            if (empname == '') {
+                validate = false;
+                alert('please enter empname');
+                return false;
+            }
+            if (designation == '') {
+                validate = false;
+                alert('please enter designation');
+                return false;
+            }
+
+            if (deptname == '') {
+                validate = false;
+                alert('please enter deptname');
+                return false;
+            }
+
+
+            if (validate) {
+                $.ajax({
+
+                    type: "POST",
+
+                    contentType: "application/json; charset=utf-8",
+
+                    url: urlaction,
+
+                    data: "{'empno':'" + empno + "', 'empname':'" + empname + "','designation':'" + designation + "','deptname':'" + deptname + "'}",
+
+                    dataType: "json",
+
+                    async: false,
+
+                    success: function (data) {
+
+                        if (data == "true") {
+                            alert("Data Inserted Successfully");
+                            $("#txtempno").val('');
+                            $("#txtempname").val('');
+                            $("#txtdesignation").val('');
+                            $("#txtdeptname").val('');
+                        }
+                        else {
+                            alert("Error")
+                        }
+
+
+
+
+
+
+                    },
+
+                    error: function (result) {
+
+                        alert("error executing function");
+
+
+
+                    }
+
+
+
+                });
+            }
+        });
+
+    });
+    </script>
+</head>
+<body>
+    <div>
+        <input type="text" id="txtempno" /><br />
+        <input type="text" id="txtempname" /><br />
+        <input type="text" id="txtdesignation" /><br />
+        <input type="text" id="txtdeptname" /><br />
+        <input type="button" id="btnadddept" value="Insert Dept" />
+    </div>
+</body>
+</html>

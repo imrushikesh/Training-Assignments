@@ -1,0 +1,52 @@
+﻿@model mvcApp1.Models.EmpModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UpdateDept</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <table>
+                <tr>
+                    <td>@Html.DisplayNameFor(model => model.empname)</td>
+                    <td>@Html.EditorFor(model => model.empname, new { id = "txtempname" })</td>
+                </tr>
+
+
+                <tr>
+                    <td>@Html.DisplayNameFor(model => model.empname)</td>
+                    <td>@Html.EditorFor(model => model.empname, new { id = "txtempname" })</td>
+                </tr>
+
+                <tr>
+                    <td>@Html.DisplayNameFor(model => model.designation)</td>
+                    <td>@Html.EditorFor(model => model.designation, new { id = "txtdesignation" })</td>
+                </tr>
+
+                <tr>
+                    <td>@Html.DisplayNameFor(model => model.deptname)</td>
+                    <td>@Html.EditorFor(model => model.deptname, new { id = "txtdeptname" })</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit" value="Update Department" id="btnsubmit" />
+                    </td>
+                    <td> @Html.ActionLink("Back To List", "Index")</td>
+
+                </tr>
+            </table>
+
+
+        }
+    </div>
+</body>
+</html>

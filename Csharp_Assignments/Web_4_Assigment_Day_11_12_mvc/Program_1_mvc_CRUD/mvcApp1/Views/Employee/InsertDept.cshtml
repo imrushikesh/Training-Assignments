@@ -1,0 +1,52 @@
+﻿@model mvcApp1.Models.EmpModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>InsertDept</title>
+</head>
+<body>
+    <div style="text-align:center">
+        @using (Html.BeginForm())
+        {
+            <table border="1" class="table" style="margin: 10% auto; text-align: center; width: 20%; border: solid 2px #353131;">
+                <tr>
+                    <td>@Html.DisplayNameFor(model => model.empno)</td>
+                    <td>@Html.EditorFor(model => model.empno, new { id = "txtdno" })</td>
+                </tr>
+
+
+                <tr>
+                    <td>@Html.DisplayNameFor(model => model.empname)</td>
+                    <td>@Html.EditorFor(model => model.empname, new { id = "txtempname" })</td>
+                </tr>
+
+                <tr>
+                    <td>@Html.DisplayNameFor(model => model.designation)</td>
+                    <td>@Html.EditorFor(model => model.designation, new { id = "txtloc" })</td>
+                </tr>
+
+                <tr>
+                    <td>@Html.DisplayNameFor(model => model.deptname)</td>
+                    <td>@Html.EditorFor(model => model.deptname, new { id = "txtempname" })</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit" value="submit" id="btnsubmit" />
+                    </td>
+                    <td> @Html.ActionLink("Back To List", "Index")</td>
+
+                </tr>
+            </table>
+
+
+        }
+    </div>
+</body>
+</html>
