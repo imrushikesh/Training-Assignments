@@ -1,3 +1,3 @@
 
 # Day 13 Assigment
-## Mvc CRUD Application using Entity framework
+## mvc CRUD Application using Entity framework
