@@ -39,7 +39,31 @@
 </details>
 
 
+<details>
+<summary> .NET MVC Assignments on 👇 </summary>
+<ol>
+<li>Create & Run First Web API Application in Visual Studio.</li>
+<li>Debugging the Application Code</li>
+<li>.NET - Forms (using OOP)</li>
+<li>MVC Controller, Views </li>
+<li>Security and Routing</li>
+<li>Request Processing</li>
+<li>Sessions, View Bag etc</li>
+<li>Data Binding</li>
+<li>MVC Form Authentication</li>
+<li>Web APIs</li>
+<li>Methods for APIs (Get, Post, Put etc)</li>
+<li>NuGet Packages Introduction</li>
+<li>WebServices - Restful APIs</li>
+<li>jQuery / Ajax, Ajax Request with Authentication headers</li>
+<li>Entity Framework Introduction & Working Strategy</li>
+<li>API Project & Class Library Project introduction.</li>
 
+
+</ol>
+
+
+</details>
 
 
 
