@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+
+<p id="p1"></p>
+
+
+    <script>
+        // declare array
+    const no =[1,2,3,4,5];
+    
+    // display array
+    for (let i=0;i<no.length;i++){
+        document.write(no[i]+" ");
+    }
+
+
+    document.write("<br>");
+
+    const colors = new Array ("red","orange","white","black");
+// indexing
+    let col = colors[1];
+    document.write(col);
+
+// put in DOM
+    document.getElementById("p1").innerHTML=colors;
+
+
+    document.write("<br>");
+
+
+
+    document.write("<br>");
+
+    // sum of array elements
+    var sum=0;
+
+    for (let i=0; i<no.length;i++){
+            sum=sum+no[i];
+    }
+    document.write("sum of array elements ="+sum);
+
+    // array methods
+
+
+
+    const city =["sangli","pune","mumbai"];
+    
+    console.log(city.length);
+  
+
+    city.push("goa");
+
+    console.log(city.toString());
+    console.log(city.length);
+
+    let l=city.push("goa");
+console.log(l);
+
+//remove last
+city.pop();
+
+// remove first
+city.shift
+
+//add at first
+
+city.unshift("banglore");
+document.getElementById("p1").innerHTML=city;
+
+document.getElementById("p1").innerHTML=city.join("-");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>

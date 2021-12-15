@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse Array</title>
+</head>
+<body>
+    <h1>Reverse Array</h1>
+    <h3>Write JS code  for create Array number or string type and revers it </h3>
+    
+    <h5>Array -</h5>
+    <p id="array"></p>
+    <h5> Reverse Array -</h5>
+    <p id="Rarray"></p>
+<!-- 
+    <h5> Reverse Array 2 -</h5>
+    <p id="Rarray1"></p> -->
+
+<script>
+
+var numbs = [1,2,3,4,5];
+
+document.getElementById("array").innerHTML=numbs;
+
+var reverse = numbs.reverse();
+document.getElementById("Rarray").innerHTML=reverse;
+
+
+var names = ["r","u","s","h","i"];
+
+document.write(names);  
+
+document.write("<br>");  
+
+
+// for (var  i=0;i<names.length;i++){
+//     for (var j=names.length-1;j>=0;j--){
+//         var temp=names[i];
+//         names[i]=names[j];
+//         names[j]=temp;
+//     }
+// }
+
+// document.write(names); 
+document.write("<br>"); 
+for (var j=names.length-1;j>=0;j--){
+    document.write(names[j])
+}
+
+
+
+</script>
+
+</body>
+</html>

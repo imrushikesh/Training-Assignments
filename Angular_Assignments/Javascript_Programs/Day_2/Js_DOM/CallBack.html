@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call Back</title>
+</head>
+<body>
+
+
+
+
+    
+<script>
+
+// function add (x,y){
+//     document.write(x+y+"<br>")
+// }
+
+
+// function display (){
+//     document.write("in display")
+// }
+
+// add(2,2);
+// display();
+
+
+
+function add (x,y){
+    document.write(x+y+"<br>")
+}
+
+
+function display (a,b,call){
+    document.write("in display"+"<br>")
+    call (a,b);
+}
+
+display(2,2,add);
+
+
+
+function call(){
+    document.write("call function")
+}
+
+
+function calling(name,callBack){
+    document.write("calling..."+"<br>");
+    callBack();
+}
+
+
+calling("rushikesh",call);
+
+
+// setTimeout(function() { myfunction ("timeout.....") ;
+// } , 3000);
+
+
+
+// function myfunction (params) {
+//  document.write(params)   
+// }
+
+
+    </script>
+
+</body>
+</html>

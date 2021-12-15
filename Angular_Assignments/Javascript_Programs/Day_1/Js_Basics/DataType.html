@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataTypes</title>
+              
+</head>
+<body>
+
+    <!-- <h1>3+6</h1> -->
+    <p id="para1"></p>
+
+<script>
+
+
+
+    //DataType
+
+
+    // var - gloabal
+    // let - local 
+    // constant - final 
+
+
+    var no = 10;
+    
+    //display data in javascript
+    console.log(no);
+    var name ="Rushikesh";
+
+    //   document.write(name)
+
+    //   window.alert(name);
+
+
+    document.getElementById("para1").innerHTML="Name - " +name;
+
+
+    var no1= 24;
+    {
+        let no1=12;
+        document.write("Let variable - "+(no1)+"<br>");
+
+    }
+
+    document.write("Global value - "+no1+"<br>");
+
+
+    // ERROR  can not declare both as in same name.
+    // let no2=24;
+    // var no2=12;
+
+    // ERROR 
+    // can not declare let again
+    
+    // let no3=24;
+    // let no3=12;
+
+    const n =3;
+ document.write(n);
+
+ //ERROR - can not assign value to constant again
+//  n=n+3;
+//  document.write(n);
+
+
+
+</script>
+    
+</body>
+</html>
