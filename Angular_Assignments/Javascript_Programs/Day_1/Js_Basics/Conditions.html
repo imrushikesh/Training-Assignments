@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statements</title>
+</head>
+<body>
+    
+
+<script>
+
+var no =78;
+
+if (no%2==0){
+    document.write("even no   ");
+}
+else {
+    document.write("odd no");
+}
+
+
+
+if (no>0){
+    document.write("pos no  ");
+}
+else if (no<0) {
+    document.write("neg no");
+}
+
+else if (no==0) {
+    document.write("neg no");
+}
+
+// switch case 
+
+
+var day ="monday"
+switch(day){
+    case'Monday':
+    console.log("day is - " +day);
+    break;
+    case "tuesday":
+    console.log("day is - " +day);
+    break;
+    default:
+    console.log("day is - " +day);
+    break;
+}
+
+switch(new Date().getDay()){
+    case 0:
+       day1="sunday" ;
+       break;
+       case 1:
+       day1="monday";
+       break;
+ 
+}
+
+document.write(day1)
+
+</script>
+
+
+
+</body>
+</html>

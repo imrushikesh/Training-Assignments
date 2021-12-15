@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise </title>
+</head>
+<body>
+
+
+
+
+
+
+
+
+<script>
+
+// var  myPromise = new Promise (function (resolve,reject) {
+//    setTimeout(()=> resolve('promise done....'),3000);
+
+// });
+
+
+// console.log(myPromise);
+// document.write(myPromise);
+
+
+
+// var myPromise = new Promise (function (resolve,reject) {
+// //    setTimeout(() =>resolve('done......'),2000); 
+//    setTimeout(() =>reject('reject......'),4000); 
+
+// })
+
+// myPromise.then (
+// result=>alert(result),
+// error=> alert(error)
+// );
+
+
+
+new Promise ((resolve,reject)=>{
+
+    //setTimeout(() => resolve("done...."), 2000);
+    setTimeout(() => reject("not done...."), 2000);
+}).finally (()=>alert("promise is ready")).then (result=>alert(result),
+
+    error=>alert(error));
+
+</script>
+</body>
+</html>

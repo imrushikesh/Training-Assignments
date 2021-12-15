@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+var fun = function add(x,y){
+   document.write("function Expression = "+x+y);
+}
+
+
+fun(2,4);
+document.write("<br>");
+
+// is parameter not passes then - undefined.
+// function without name - 
+var a = function(x,y){
+    document.write("function without name " +(x+y));
+}
+
+a(6,7);
+
+document.write("<br>");
+
+// arrow function
+
+
+var arrow =()=> {
+    document.write("arrow function ");
+}
+
+arrow();
+
+document.write("<br>");
+
+
+var single =()=>document.write("single line function");
+document.write("after function");
+single();
+
+document.write("<br>");
+
+var singlePara =a=>document.write("single line function  "+a);
+
+singlePara(2);
+
+
+
+    </script>
+
+</body>
+</html>
