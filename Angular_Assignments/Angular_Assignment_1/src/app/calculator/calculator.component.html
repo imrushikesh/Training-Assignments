@@ -1,0 +1,17 @@
+
+<div>
+<h2>calculator </h2>
+
+
+<input type="number" [(ngModel)]='num1'><br>
+<input type="number" [(ngModel)]='num2'><br>
+
+<button class="btn btn-outline-secondary" (click)="add(num1,num2)">Add</button>
+<button class="btn btn-outline-secondary"  (click)="sub(num1,num2)">sub</button>
+<button class="btn btn-outline-secondary" (click)="mult(num1,num2)">mult</button>
+<button class="btn btn-outline-secondary" (click)="div(num1,num2)">div</button>
+
+<p>{{num1}} {{num2}}  {{result}}</p>
+
+
+</div>

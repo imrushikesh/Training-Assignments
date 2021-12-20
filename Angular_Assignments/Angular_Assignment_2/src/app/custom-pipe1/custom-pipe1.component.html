@@ -1,0 +1,40 @@
+
+
+<div>
+
+<h1>Division Pipe</h1>
+
+<!-- Create division Custom Pipe
+
+Using division custom pipe we will divide a number by a given number. Find the syntax.
+
+number_expression | division[:num_divisor]
+
+Find the description.
+number_expression : An expression that will return a number and that will be dividend.
+num_divisor: This number is the argument of our pipe that will be used as divisor. -->
+
+
+
+
+
+Dividend<input type="number" [(ngModel)]='divident'>
+Divisior<input type="number" [(ngModel)]='divisor'>
+<p>{{this.divident}}</p>
+<p>{{this.divisor}}</p>
+
+
+<p>Result - >{{divident| division:divisor}}</p>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
