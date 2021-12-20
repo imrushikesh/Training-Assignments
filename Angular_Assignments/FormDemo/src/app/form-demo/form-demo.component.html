@@ -1,0 +1,77 @@
+
+<div>
+<p>Forms</p>
+
+ <!-- multiple 
+ placeholder -->
+
+<!-- (onSubmit)='onSubmit(form.Value)' -->
+<form #form='ngForm' (ngSubmit)='onSubmit(form.value)'>
+    <div class="form-group">
+       <label>Name : -</label>
+        <input type="text" class="form-control" #nm='ngModel' ngModel name="name" required minlength="5" >
+    <div class="alert alert-danger" *ngIf="nm.invalid && nm.touched">
+    <div  *ngIf="nm.errors?.['required'] ">please enter Name</div>
+    <div  *ngIf="nm.errors?.['minlength'] ">name should be at least 5 and less than 20 letters</div>
+</div>
+</div>
+        <br><br>
+
+        <div class="form-group">
+            <label>Password : -</label>
+             <input type="password" class="form-control" #nm='ngModel' ngModel name="password">
+         </div>
+             <br><br>
+
+             <div class="form-group">
+                <label>Gender : -</label>
+                <input type='radio' value ='male' name='gender' ngModel >Male
+                <input type='radio'  value ='female' name='gender' ngModel>female
+            </div>
+                <br><br>
+
+                <div class="form-group">
+                    <label>Country </label>
+                <select class="form-control" name='country' ngModel>
+                    <option *ngFor="let cn of country"  >{{cn}}</option>
+                </select>   
+                
+                
+                </div>
+            
+                    <br><br>
+
+
+    <div class="form-group">
+        <label>Address </label>
+        <input type="text" class="form-control" #am='ngModel' ngModel name="address" >
+    </div>
+
+        <br><br>
+    <div class="form-group">
+        <label>zipcode : -</label>
+        <input type="text" class="form-control" #zm='ngModel' ngModel name="zip">
+    </div>
+        <br><br>
+
+
+<button  type="submit" class="btn btn-secondary">Submit</button>
+
+
+
+
+
+
+</form>
+
+
+<!-- {{form.value | json}} -->
+
+
+
+
+
+
+
+
+</div>
