@@ -1,19 +1,20 @@
 <p align="center">
 
 
- <h1 align="center">Hi , I'm Rushikesh Patil  <img  src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="40px" height="40px"></h1> 
+<h1 align="center"> Hi , I'm Rushikesh Patil <img  src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="40px" height="40px"></h1> 
  
  <h3 align="center">Software Engineer.</h3>
  
  ***
  
  <h2 align="center"> <i>Benchmark-Training-Assignments </i></h2>
- <h4 align="center"> Assignments on C# and .NET</h4>
+ <h4 align="center">C#, ASP.NET MVC , Javascript, Typescript & Angular.</h4>
  <h4 align="center">
  
 
 
  </h4>
+ <div align-items="center">
 
 <details>
 <summary> C # Assignments on 👇 </summary>
@@ -65,10 +66,41 @@
 
 </details>
 
+  
+<details>
+<summary> Angular Assignments on 👇 </summary>
+<ol>
+<li>Javascript Essentials</li>
+<li>Javascript condition statements,Loops and oops concept</li>
+<li>Typescript Essentials</li>
+<li>TS class,Methods, Functions and Modules </li>
+<li>Angular Essentials</li>
+<li>Data Binding</li>
+<li>Directives, Pips</li>
+<li>Templete and Reactive Forms</li>
+<li>Local storage, session Storage, CRUD Operations</li>
+<li>Rest API, HttpClient</li>
+<li>Routing and Navigation</li>
 
 
 
+</ol>
 
+
+</details>
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+
+ 
+
+</div>
 
 ***
 
